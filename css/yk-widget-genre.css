@@ -5,7 +5,7 @@
  *
  */
 
-.yuukithemes-genre li{float:left;width:calc(50% - 6px);text-align:center;position:relative;margin:3px}
+.yuukithemes-genre li{float:left;width:calc(50% - 6px);text-align:center;position:relative;margin:3px;list-style: none;}
 .yuukithemes-genre ul{list-style:none;margin:0 -5px;padding:0}
 .yuukithemes-genre ul:after{content:"";display:block;clear:both}
 .yuukithemes-genre li a{display:block;color:#fff;z-index:10;position:relative;padding:9px;font-weight:700}
