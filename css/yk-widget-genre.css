@@ -4,6 +4,12 @@
  * 
  *
  */
+ .yuukithemes-genre {
+     width: auto;
+     height: 520px;
+     float:none;
+     overflow: scroll;
+}
 
 .yuukithemes-genre li{float:left;width:calc(50% - 6px);text-align:center;position:relative;margin:3px;list-style: none;}
 .yuukithemes-genre ul{list-style:none;margin:0 -5px;padding:0}
