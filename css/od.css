@@ -1,0 +1,217 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #989da0;
+	margin: 0 0;
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-color: black;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body, .td1 .th1-blur::before, .td2 .th1-blur::before {
+    background-image: url('https://i.imgur.com/cP9CL7h.jpg');
+}
+.background-fade {
+      background-image: linear-gradient(to bottom, rgba(26,25,33,0.1) 5vh, rgba(26,25,33,0.3) 70vh);
+      padding-bottom: 0px;
+      min-height: 100vh;
+}
+
+#list_surround {
+      margin: auto auto;
+	  padding-left: 0px;
+	  padding-bottom: 0px;
+	  padding-top: 10px;
+	  width: 98% !important;
+}
+
+.title {
+      font-size: 4.7em;
+      font-weight: normal;
+      color: #ffffff;
+      letter-spacing: 10px;
+	  padding: 0px 0px 2px 0px;
+	  text-shadow: 0px 0px 20px, rgba(0,0,0,0.6) 0px 1px 2px;
+	  font-family: 'Oswald', sans-serif;
+	  text-transform: uppercase;
+	  text-align: center;
+}
+
+.hiatus {
+      font-size: 2.7em;
+      font-weight: normal;
+      color: #ffffff;
+      letter-spacing: 10px;
+	  padding: 0px 0px 2px 0px;
+	  text-shadow: 0px 0px 20px, rgb(0 0 0 / 86%) 0px 1px 2px;
+	  font-family: 'Oswald', sans-serif;
+	  text-transform: uppercase;
+	  text-align: center;
+}
+
+/* ************ TEXT STYLES ************ */
+i
+{
+      color: #BC3A52;
+	  text-shadow: 1px 1px rgba(20, 20, 20, 0.95);
+}
+
+
+/* ************ HYPERLINK STYLES ************ */
+a:link, a:visited, a:active {
+	  -moz-transition: all 0.25s ease-in-out 0s;
+	  color: #ffffffc9;
+	  text-decoration: none;
+	  text-shadow: none;
+	  font-size: 1.2em;
+}
+
+a:hover {
+	  color: #d73a49;
+	  text-shadow: 0 2px #d73a4945;
+      border-bottom: 1px #D5D5D5 dotted;
+      background: none;
+}
+
+/* ************ DIV BOXES CSS ************ */
+.th1-padding {
+    padding: 0px;
+    position: relative;
+}
+.th1-blur {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.td1 .th1-blur::before, .td2 .th1-blur::before {
+    background-color: #1f2639;
+    box-shadow: inset rgba(31,38,57,0.45) 0px 100px 0px;
+}
+.th1-blur::before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    right: -35px;
+    bottom: -35px;
+    -webkit-filter: blur(30px) saturate(320%);
+    filter: blur(30px) saturate(320%);
+    background-size: 100vw auto;
+    background-position: 50% 50%;
+    box-shadow: inset rgba(0,0,0,0.45) 0px 100px 0px;
+}
+
+.th1 {
+	  background: rgba(255,255,255,0.1) url('maintitle_texture.png') repeat 50% 50%;
+      border: 0;
+      box-shadow: inset rgba(255,255,255,0.1) 0px 0px 0px 1px, inset rgba(255,255,255,0.3) 0px 1px 0px;
+      border-radius: 3px;
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+	  color: #ffffff;
+      font-weight: normal;
+	  font-size: 1.5em;
+	  letter-spacing: 2px;
+      text-shadow: #000 0px -1px 0px;
+      padding: 7px;
+      -moz-osx-font-smoothing: grayscale;
+      position: relative;
+	  text-align: center;
+	  margin-bottom: 5px;
+	  
+}
+
+.td1 {
+	  vertical-align: text-top;
+	  background-color: rgba(20,14,25,0.8);
+	  padding: 10px;
+	  margin: 10px;
+	  min-width: 250px;
+	  max-width: 700px;
+	  border-radius: 4px;
+	  box-shadow: inset rgba(0,0,0,0.8) 0px 1px 8px, rgba(255,255,255,0.1) 0px 0px 0px 1px, rgba(255,255,255,0.1) 0px 1px 0px;
+	  display: inline-block;
+	  text-align: left;
+}
+
+.td2 {
+	  vertical-align: text-top;
+	  background-color: rgba(28,20,35,0.8);
+	  padding: 10px;
+	  margin: 10px;
+	  min-width: 250px;
+	  max-width: 700px;
+	  border-radius: 4px;
+	  box-shadow: inset rgba(0,0,0,0.8) 0px 1px 8px, rgba(255,255,255,0.1) 0px 0px 0px 1px, rgba(255,255,255,0.1) 0px 1px 0px;
+	  display: inline-block;
+	  text-align: left;
+}
+
+/* ************ FOOTER TEXT ************ */
+#copyright, #legend {
+	  font-weight: normal;
+	  text-align: center;
+	  text-shadow: 1px 1px #6a737d;
+	  font-size: 1.1em;
+	  margin: 30px auto 20px auto;
+	  padding: 10px;
+	  min-width: 400px;
+	  max-width: 400px;
+	  background: rgb(72 64 87 / 17%);;
+	  border-radius: 4px;
+	  box-shadow: inset rgba(0,0,0,0.8) 0px 1px 8px, rgba(255,255,255,0.1) 0px 0px 0px 1px, rgba(255,255,255,0.1) 0px 1px 0px;
+}
+
+.legendtext {
+	  font-size: 0.8em;
+	  /* background: rebeccapurple; */
+}
+
+/* ************ LINE BREAK STYLE ************ */
+hr { 
+	  border-style: solid; 
+	  border-width: 1px 0 0 0; 
+	  color: rgba(80,75,80,1);
+} 
+
+/* ************ FANCY EFFECTS ************ */
+*::-moz-selection {
+      background-color:#BC3A52;
+      color:#EBEBEB;
+}
+
+/* ************ SPECIFIC STYLING ENTRIES ************ */
+.series {
+      padding: 6px 2px 6px 2px;
+      font-size: 0.96em;
+      letter-spacing: 1px;
+      padding: 8px;
+      border-radius: 4px;
+      color: #ffffff;
+}
+
+.series a:link,.series a:visited,.series a:active { 
+}
+
+.series:hover { 
+	  border-radius: 4px;
+	  background-color: rgba(72, 64, 87, 0.6);
+	  box-shadow: inset rgba(0,0,0,0.8) 0px 1px 8px, rgba(255,255,255,0.1) 0px 0px 0px 1px, rgba(255,255,255,0.1) 0px 1px 0px;
+}
+.items {
+	background:rgba(72, 64, 87, 0.6);
+}
+nav {
+	background:rgb(255 255 255 / 7%);
+	box-shadow:none;
+	color:#eeeeeea6;
+    text-shadow: 0px 0px 20px, #fafbfc 0px 1px 2px;
+
+}
