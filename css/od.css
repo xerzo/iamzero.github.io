@@ -216,6 +216,14 @@ nav {
 
 }
 
+element.style {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.intro.markdown-body {
+    background: none !important;
+}
 @media (prefers-color-scheme: dark)
 nav, .aplayer .aplayer-info, .items, .markdown-body, .markdown-body img {
     background: none !important;
