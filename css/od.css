@@ -209,9 +209,14 @@ hr {
 	background:rgba(72, 64, 87, 0.6);
 }
 nav {
-	background:rgb(255 255 255 / 7%) !importan;
+	background:rgb(255 255 255 / 7%) !important;
 	box-shadow:none;
 	color:#eeeeeea6;
     text-shadow: 0px 0px 20px, #fafbfc 0px 1px 2px;
 
+}
+
+@media (prefers-color-scheme: dark)
+nav, .aplayer .aplayer-info, .items, .markdown-body, .markdown-body img {
+    background: none !important;
 }
